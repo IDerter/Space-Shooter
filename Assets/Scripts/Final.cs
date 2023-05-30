@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace SpaceShooter
+{
+    [RequireComponent(typeof(CircleCollider2D))]
+    public class Final : MonoBehaviour
+    {
+        [SerializeField] private SceneHelper sceneHelper;
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.attachedRigidbody == null) return;
+
+            sceneHelper.LoadLevel(0);
+
+        }
+    }
+}
+

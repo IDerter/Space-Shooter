@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94eb23ae47d35ae45b72b215328f702d, type: 3}
+  m_Name: secondary_rocket_turret_01
+  m_EditorClassIdentifier: 
+  _turretMode: 1
+  _projectilePrefab: {fileID: 6829001467398511824, guid: 0758ba040fdf2394084832177ad75e9b, type: 3}
+  _rateOfFire: 0.5
+  _energyUsage: 0
+  _ammoUsage: 1
+  _launchSFX: {fileID: 0}
